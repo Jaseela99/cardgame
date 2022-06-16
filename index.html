@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="card.css">
+    <title>Black Jack</title>
+    
+</head>
+<body>
+    <div class =container>
+        <h1 id = "heading">Let's Play!</h1>
+
+        <div class= "box">
+            <div id="Player-box">
+            <h2 id ="player">Player:<span id ="Player-Result">0</span></h2>
+            <!--<div class="card">
+                card +<div>singlesuit</div>
+            </div>-->
+         </div>
+            <div id="Dealer-box">
+            <h2 id ="dealer">Dealer:<span id ="Dealer-Result">0</span></h2>
+         </div>
+        </div>
+
+        <div class ="button">
+         <button id ="hitButton">Hit</button>
+         <button id ="standButton">Stand</button>
+         <button id ="dealButton">Deal</button>
+        </div>
+
+        <div class ="scoreboard">
+
+            <table>
+                <tr>
+                    <th>Player</th>
+                    <th>Tie </th>
+                    <th>Dealer</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="draws">0</span></td>
+                    <td><span id="losses">0</span></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+ <script src ="cards.js"></script>
+</body>
+</html>
